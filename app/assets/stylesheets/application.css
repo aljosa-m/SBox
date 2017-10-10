@@ -48,6 +48,13 @@
    margin: 10px 10px;
  }
 
+ .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+   color: #018FC0;
+   border: 1px solid transparent;
+   border-radius: 10px;
+ }
+
+
  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
    color: #018FC0;
    border: 1px solid #018FC0;
