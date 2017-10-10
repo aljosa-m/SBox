@@ -95,7 +95,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-3 col-sm-12">
-          <img src="images/buildings.jpg" alt="" class="img-fluid">
+          <%= image_tag "buildings.jpg", :class=>"img-fluid" %>
           Max. 15 kg
           <p class="choice-description">Document Box</p>
           <p class="choice-price">HK$ 99/mo</p>
@@ -118,7 +118,7 @@
           </select>
         </div>
         <div class="col-md-3 col-sm-12">
-          <img src="images/buildings.jpg" alt="" class="img-fluid">
+          <%= image_tag "buildings.jpg", :class=>"img-fluid" %>
           Max. 20 kg
           <p class="choice-description">Standard Box</p>
           <p class="choice-price">HK$ 99/mo</p>
@@ -140,7 +140,7 @@
           </select>
         </div>
         <div class="col-md-3 col-sm-12">
-          <img src="images/buildings.jpg" alt="" class="img-fluid">
+          <%= image_tag "buildings.jpg", :class=>"img-fluid" %>
           Max. 20kg
           <p class="choice-description">Oversized Item</p>
           <p class="choice-price">HK$ 99/mo</p>
@@ -162,7 +162,7 @@
           </select>
         </div>
         <div class="col-md-3 col-sm-12">
-          <img src="images/buildings.jpg" alt="" class="img-fluid">
+          <%= image_tag "buildings.jpg", :class=>"img-fluid" %>
           Max. 20kg
           <p class="choice-description">Wardrobe Box</p>
           <p class="choice-price">HK$ 99/mo</p>
@@ -212,13 +212,16 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="images/cat.jpg" alt="First slide">
+      <%= image_tag "cat.jpg", :class=>"d-block img-fluid" %>
+
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="images/cat2.jpeg" alt="Second slide">
+      <%= image_tag "cat2.jpeg", :class=>"d-block img-fluid" %>
+
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="images/cat3.jpg" alt="Third slide">
+      <%= image_tag "cat3.jpg", :class=>"d-block img-fluid" %>
+
     </div>
   </div>
 </div>
